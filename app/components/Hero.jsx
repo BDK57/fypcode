@@ -301,7 +301,17 @@ const Hero = () => {
                             )
                         })
                     ):(
-                        null
+                          <div className="grid gap-2 grid-cols-2 lg:grid-cols-3 w-full">
+              <div className="animate-pulse shrink">
+                <span className="w-[73vw] md:w-[44.3vw] lg:w-[30.09vw] h-[450px] block bg-gray-300 rounded-xl" />
+              </div>
+              <div className="animate-pulse shrink">
+                <span className="ml-36 md:ml-auto w-[73vw] md:w-[44.3vw]  lg:w-[30.09vw] h-[450px] block bg-gray-300 rounded-xl" />
+              </div>
+              <div className="animate-pulse shrink">
+                <span className="w-[30.09vw] h-[450px] hidden lg:block bg-gray-300 rounded-xl" />
+              </div>
+            </div>
                     )
                     
                    }
