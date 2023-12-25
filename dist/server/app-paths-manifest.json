@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/api/Vendor/Hall/Add/route": "app/api/Vendor/Hall/Add/route.js",
+  "/api/Vendor/Hall/route": "app/api/Vendor/Hall/route.js",
+  "/api/Vendor/Hall/[id]/route": "app/api/Vendor/Hall/[id]/route.js"
+}
